@@ -46,7 +46,7 @@ getXML.onclick = () => {
 
 getHTML.onclick = () => {
   const request = new XMLHttpRequest();
-  request.open("GET", "3.htm");
+  request.open("GET", "3.html");
   request.onload = () => {
     const div = document.createElement("div");
     div.innerHTML = request.response;
